@@ -1,11 +1,15 @@
 header{
-	background-color: #48C9B0;
+	
 }
 
 body{
-	background-color: #48C9B0;
+	background-color: black;
 	margin: 0
 }
+
+.Banner {
+		background-image: url("Images/img_front.jpg")
+}		
 
 h1{
 	font-family: "century gothic";
