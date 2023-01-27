@@ -3,27 +3,84 @@ header{
 }
 
 body{
-	background-color: black;
 	margin: 0
 }
 
-.Banner {
-		background-image: url("Images/img_front.jpg")
-}		
-
-h1{
-	font-family: "century gothic";
-	font-size: 60px;
-	font-weight: 900;
-	text-align: center;
-	text-decoration: none;
-	text-indent: none;
-	text-transform: none;
-	color: white;
-	[comment: recognised in pixels]
-	word-spacing: 10px;
-	line-height: none;
+nav{
+	flex: 1;
+	text-align: right;
+	font-family: 	century gothic;
+	font-weight: 	500;
 }
+
+nav ul li{
+	list-style: 	none;
+	display: 	inline-block;
+	margin-left: 	60px;
+}
+
+nav ul li a{
+
+	text-decoration: 	none;
+	color: #46aa9e;
+	font-size: 	15px;
+}
+
+.row{
+	display: 	flex;
+	height: 	88%;
+	align-items: 	center;
+}
+
+.col{
+	flex-basis: 50%;
+}
+
+.menu-icon{
+	width: 	60px;
+	height: 60px;
+	curser: pointer;
+	margin-left: 40px;
+}
+
+.Banner {
+		background-color: white;
+		display: flex;
+		border-bottom: 1px solid #CCC;
+		padding-bottom: 3px;
+}	
+.Banner Img{
+	margin-right: 30px;
+}	
+
+.container{
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(Images/mainbg.jpg);
+	background-position: center;
+	background-size: cover;
+	padding-left: 	0%;
+	padding-right: 	0%;
+	box-sizing: 	border-box;
+}
+
+.MainHeader {
+		font-family: "century gothic";
+		font-size: 20px;
+		font-weight: 900;
+		text-align: center;
+		text-decoration: none;
+		text-indent: none;
+		text-transform: none;
+		color: #46aa9e;
+		[comment: recognised in pixels]
+		word-spacing: 10px;
+		line-height: none;
+
+	
+}
+
+
 
 h2{
 	font-family: "century gothic";
@@ -33,7 +90,7 @@ h2{
 	text-decoration: none;
 	text-indent: none;
 	text-transform: none;
-	color: white;
+	color: black;
 	[comment: recognised in pixels]
 	word-spacing: 10px;
 	line-height: none;
@@ -44,3 +101,6 @@ h2{
 a{
 	text-decoration: none;
 }
+
+old cache
+background-image: url("Images/img_front.jpg")
