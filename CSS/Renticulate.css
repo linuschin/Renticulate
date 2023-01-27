@@ -3,14 +3,21 @@ header{
 }
 
 body{
-	margin: 0
+	margin: 0;
+	font-family: century gothic;
+	color: white;
+}
+
+.logo{
+	curser: pointer;
+	margin-left: 20px;
+	align-items: center;
 }
 
 nav{
 	flex: 1;
 	text-align: right;
-	font-family: 	century gothic;
-	font-weight: 	500;
+	
 }
 
 nav ul li{
@@ -24,6 +31,7 @@ nav ul li a{
 	text-decoration: 	none;
 	color: #46aa9e;
 	font-size: 	15px;
+	font-weight: 700;
 }
 
 .row{
@@ -34,11 +42,13 @@ nav ul li a{
 
 .col{
 	flex-basis: 50%;
+	padding-left: 5%;
+
 }
 
 .menu-icon{
-	width: 	60px;
-	height: 60px;
+	width: 	40px;
+	height: 40px;
 	curser: pointer;
 	margin-left: 40px;
 }
@@ -47,7 +57,8 @@ nav ul li a{
 		background-color: white;
 		display: flex;
 		border-bottom: 1px solid #CCC;
-		padding-bottom: 3px;
+		padding-bottom: 0px;
+		align-items: center;
 }	
 .Banner Img{
 	margin-right: 30px;
@@ -61,39 +72,67 @@ nav ul li a{
 	background-size: cover;
 	padding-left: 	0%;
 	padding-right: 	0%;
+	padding-top: 0%;
 	box-sizing: 	border-box;
 }
 
-.MainHeader {
-		font-family: "century gothic";
-		font-size: 20px;
-		font-weight: 900;
-		text-align: center;
-		text-decoration: none;
-		text-indent: none;
-		text-transform: none;
-		color: #46aa9e;
-		[comment: recognised in pixels]
-		word-spacing: 10px;
-		line-height: none;
+.card{
+	width: 300px;
+	height: 330px;
+	display: inline-block;
+	border-radius: 10px;
+	padding: 15px 25px;
+	box-sizing: border-box;
+	cursor: pointer;
+	margin: 10px 15px;
+	background-position: center;
+	background-size: cover;
+	transition: transform 0.5s;
 
-	
 }
 
+.card1{
+	background-image: url(Images/tenanttile.jpg);
+}
 
+.card2{
+	background-image: url(Images/landlordtile.jpg);
+}
 
-h2{
-	font-family: "century gothic";
-	font-size: 30px;
-	font-weight: 300;
-	text-align: center;
-	text-decoration: none;
-	text-indent: none;
-	text-transform: none;
-	color: black;
-	[comment: recognised in pixels]
-	word-spacing: 10px;
-	line-height: none;
+.card:hover{
+	transform: translateY(-10px);
+}
+
+button{
+	width: 180px;
+	color: #000;
+	font-size: 15px;
+	padding: 12px 0;
+	background: white;
+	border: 0;
+	border-radius: 20px;
+	outline: none;
+	margin-top: 30px;
+}
+
+h1{
+	font-family: 	century gothic;
+	font-weight: 	800;
+	font-size: 50px;
+}
+
+h5{
+	font-family: 	century gothic;
+	font-weight: 	800;
+	font-size: 20px;
+	color: white;
+	text-shadow: 0 0 5px #999;
+}
+
+p{
+	font-family: 	century gothic;
+	font-size: 15px;
+	line-height: 1.5;
 }
 
 
@@ -102,5 +141,3 @@ a{
 	text-decoration: none;
 }
 
-old cache
-background-image: url("Images/img_front.jpg")
