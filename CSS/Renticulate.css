@@ -113,6 +113,12 @@ button{
 	border-radius: 20px;
 	outline: none;
 	margin-top: 30px;
+	transition: transform 0.5s;
+	cursor: pointer;
+}
+
+button:hover{
+	transform: translateY(-10px);
 }
 
 h1{
