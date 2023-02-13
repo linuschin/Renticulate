@@ -42,10 +42,18 @@ nav ul li a{
 }
 
 .col{
+
+	flex-basis: 50%;
+	padding-left: 5%;
+}
+
+.col2{
+	display: flex;
 	flex-basis: 50%;
 	padding-left: 5%;
 
-}
+
+}	
 
 .menu-icon{
 	width: 	40px;
