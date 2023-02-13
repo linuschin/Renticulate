@@ -9,6 +9,7 @@
 	<!-- linking css file to the home page -->
 	<link rel="stylesheet" type="text/css" href="css/Renticulate.css">
 	<link rel="stylesheet" type="text/css" href="css/Cardeffects.css">
+	<link rel="stylesheet" type="text/css" href="css/Ribbon.css">
 
 </head>
 
@@ -28,14 +29,20 @@
 
 						<img src="Images/menuicon.png" class="menu-icon">
 
-						<nav>
+						<nav class="navbar">
 						
-						<ul>	
-
-						<li><a href="">REGION</a></li>
-						<li><a href="">SERVICES</a></li>
-						<li><a href="file:///C:/Users/linus/Desktop/Renticulate/Login.html">LOG IN</a></li>	
-
+						<ul id="menu">
+						  <li><a href="file:///C:/Users/linus/Desktop/Renticulate/Login.html">Log In</a></li>
+						  <li><a href="#">About</a></li>
+						  <li>
+						    <a href="#">Services</a>
+						    <ul class="dropdown">
+						      <li><a href="#">Service 1</a></li>
+						      <li><a href="#">Service 2</a></li>
+						      <li><a href="#">Service 3</a></li>
+						    </ul>
+						  </li>
+						  <li><a href="#">Contact</a></li>
 						</ul>
 
 						</nav>
